@@ -6,10 +6,10 @@ import Page from './components/Page/Page'
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-        </header>
+      <div className="PageContainer">
+      <header className="Navbar">
+      <img src={logo} className="App-logo" alt="logo" />
+      </header>
         <Page />
       </div>
     );
