@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 // import './Board.css';
-import Cell from './Cell';
+import Cell from '../Cell/Cell';
 
 class Column extends Component {
   render() {
