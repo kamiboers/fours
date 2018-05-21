@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-// import './Board.css';
+import './Column.scss';
 import Cell from '../Cell/Cell';
 
 class Column extends Component {
   render() {
     return (
-      <div className="Column">
+      <div className="Column {isLeftBound} {isRightBound}">
         <Cell />
         <Cell />
         <Cell />

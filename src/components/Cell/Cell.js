@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
-// import './Board.css';
+import './Cell.scss';
 
 class Cell extends Component {
   render() {
     return (
       <div className="Cell">
-        Cell
       </div>
     );
   }

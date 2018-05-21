@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import './Board.css';
+import './Board.scss';
 import Column from '../Column/Column';
 
 class Board extends Component {
