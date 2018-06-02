@@ -5,7 +5,7 @@ class Menu extends Component {
   render() {
     return (
       <div className="Menu">
-        <div className="StartGameButton" />
+        <div className="StartGameButton">Start New Game</div>
       </div>
     );
   }

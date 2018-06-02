@@ -4,8 +4,10 @@ import Cell from '../Cell/Cell';
 
 class Column extends Component {
   render() {
+
+    let className = "Column";
     return (
-      <div className="Column">
+      <div className={className}>
         <Cell />
         <Cell />
         <Cell />

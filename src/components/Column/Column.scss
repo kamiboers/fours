@@ -2,17 +2,23 @@
     padding: 0px 5px;
     width: 150px;
     height: 100%;
-    background-color: rgb(32, 100, 56);
+    background-color: rgb(145, 195, 136);
     float: left;
 }
 .Column:hover {
     opacity: .85;
 }
-.Column.isLeftmostColumn {
+.PaddingColumn {
+    width: 15px;
+    height:100%;
+    background-color: rgb(145, 195, 136);
+    float: left;
+}
+.PaddingColumn.Left {
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
-.Column.isRightmostColumn {
+.PaddingColumn.Right {
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
 }

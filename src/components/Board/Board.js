@@ -6,13 +6,17 @@ class Board extends Component {
   render() {
     return (
       <div className="Board">
-        <Column />
-        <Column />
-        <Column />
-        <Column />
-        <Column />
-        <Column />
-        <Column />
+      <div className="PaddingColumn Left" />
+        
+
+        { [0,1,2,3,4,5,6].map((index) => {
+          return (
+            <Column key={index} />
+          )
+        })}
+
+        <div className="PaddingColumn Right" />
+
       </div>
     );
   }
